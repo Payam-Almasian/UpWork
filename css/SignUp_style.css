@@ -65,3 +65,12 @@
 {
 	padding-right: 80px;
 }
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
