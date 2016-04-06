@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sign up</title>
 
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
         <link rel="stylesheet" href="css/SignUp_style.css">
+		<link rel="stylesheet" href="css/mainclass.css">
+		<link rel="stylesheet" href="css/style_login.css">
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -22,78 +22,116 @@
         
     </head>
     <body class="contentbody">
+		<div class="wrapper" width="100%">
+			<div class="header">
 
-        <div class="container-fluid">
+				<div class="row borderheader headerbody">
+				
+					<div class=" top-margin">
+						
+						<div class="col-xs-4 col-sm-2 col-md-1 navbar-left">
+							<img src="images/LOGO.jpg">
+						</div> 
+						
+						<div class="col-xs-offset-1 col-xs-3 col-sm-5 col-md-6  navbar-brand">
+							<form> 
+								<div class="form-group"> 
+									<div class="input-group">
+										<span class="input-group-btn">
+											<button type="button" class="btn btn-default"><span class="glyphicon-search glyphicon"></span></button>
+										</span>
+										<input type="text" class="form-control ptext" placeholder="جستجو">
+									</div>
+								</div>
+							</form>
+						</div>
+						
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3	col-lg-offset-1 navbar-right">
+							<ol class="breadcrumb" style="background-color:white">
+								<li><button class=" btn btn-default navbar-btn ptext">ورود</button></li>
+								<li><button class=" btn btn-default navbar-btn ptext">عضویت</button></li>
+								<li><button class=" btn btn-default navbar-btn ptext">صفحه اصلی</button></li>
+							</ol>
+						</div>
+					</div>
+        	</div>
+			</div>
+			<div class="content">
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" style="text-align:center;">
 
-            <div class="row borderheader headerbody">
-                <div  class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                    
-                </div>
-                    
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <img src="images/LOGO.jpg">
-                </div> 
-
-                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                    
-                </div>
-
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" >
-                    <p class="ptext"> ورود </p>
-                </div>
-
-                
-            </div>
-
-            <div class="row">
-                
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="text-align:center;">
-
-                    <p class="headertext">لطفا اطلاعات را به دقت وارد کنید</p>
-                    
-                    <form action="" method="POST" role="form">
-                        <legend></legend>
-                    
-                        <div class="form-group">
-                            
-                            <input type="text" class="form-control inputstyle2" id="" placeholder="نام">
-                            <input type="text" class="form-control inputstyle2" id="" placeholder="نام خانوادگی">
-                            <input type="text" class="form-control inputstyle2" id="" placeholder="ایمیل">
-                            <input type="text" class="form-control inputstyle2" id="" placeholder="نام کاربری">
-                            <input type="password" class="form-control inputstyle2" id="" placeholder="گذر واژه">
-                            
-                            
-                        </div>
-                    
-                        
-                    
-                        <button type="submit" class="btn btn-primary submitstyle">ثبت نام</button>
-                    </form>
-
-
-                </div>
-
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    
-                </div>
-
-
-            </div>
-
-            <div class="row">
-                
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
-                    <p> 2015 - 2016 Upwork Global Inc.</p>
-                </div>
-
-            </div>
-
-        </div>
-
+						<p class="page-title">
+						ثبت نام کارمندان<br/>
+						</p>
+						<p class="headertext">
+						اطلاعات کاربری</p>
+						
+						<form class="form-horizontal" role="form">
+							<legend></legend>
+						
+							<div class="form-group">
+								<div class="col-xs-9 col-sm-10">
+									<input type="text" class="form-control inputstyle2" id="inputName" placeholder="نام">
+								</div>
+								 <label class="label-style control-label" for="inputName">نام:</label>
+							</div>
+							
+							<div class="form-group">
+								<div class="col-xs-9 col-sm-10">
+									<input type="text" class="form-control inputstyle2" id="inputFamilyName" placeholder="نام خانوادگی">
+								</div>
+								 <label class="label-style control-label" for="inputFamilyName">نام خانوادگی:</label>
+							</div>
+							
+							<div class="form-group">
+								<div class="col-xs-9 col-sm-10">
+									<input type="text" class="form-control inputstyle2" id="inputEmail" placeholder="ایمیل">
+								</div>
+								 <label class="label-style control-label" for="inputEmail">ایمیل:</label>
+							</div>
+							
+							<div class="form-group">
+								<div class="col-xs-9 col-sm-10">
+									<input type="text" class="form-control inputstyle2" id="inputUsername" placeholder="نام کاربری">
+								</div>
+								 <label class="label-style control-label" for="inputUsername">نام کاربری:</label>
+							</div>
+							
+							<div class="form-group">
+								<div class="col-xs-9 col-sm-10">
+									<input type="password" class="form-control inputstyle2" id="inputPassword" placeholder="گذر واژه">
+								</div>
+								 <label class="label-style control-label" for="inputPassword">گذر واژه:</label>
+							</div>
+							
+							<p class="headertext">
+							اطلاعات کاری</p>
+							<legend> </legend>
+							
+							<div class="form-group">
+								<div class="col-xs-9 col-sm-10">
+									<input type="text" class="form-control inputstyle2" id="inputPassword" placeholder="تخصص">
+								</div>
+								 <label class="label-style control-label" for="inputExpertise">تخصص:</label>
+							</div>
+							<div class="form-group">
+								<div class="col-xs-9 col-sm-10">
+									<input type="text" class="form-control inputstyle2" id="inputPassword" placeholder="سوابق کاری">
+								</div>
+								 <label class="label-style control-label" for="inputExperience">سوابق کاری:</label>
+							</div>
+							
+							<button type="button" class="btn btn-primary submitstyle">ثبت نام</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer  col-xs-12">
+				<div class="container-fluid">
+					<p> 2015 - 2016 Upwork Global Inc.</p>
+				</div>
+			</div>
+		</div>
     </body>
 
 </html>

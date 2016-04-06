@@ -33,6 +33,13 @@
 .headertext
 {
 	font-family: nasim;
+	font-size: 20px;
+	text-align: right;
+}
+
+.page-title
+{
+	font-family: nasim;
 	font-size: 30px;
 	text-align: center;
 }
@@ -53,6 +60,15 @@
 	margin-bottom: 20px;
 }
 
+.label-style
+{
+	direction: rtl;
+	text-align: right;
+	font-family: nasim;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
 .submitstyle
 {
 	
@@ -62,17 +78,6 @@
 	
 }
 
-.footer
-{
-	margin-top: 60px;
-	background-color: #494949;
-	text-align: center;
-	color:white;
-	font-size: 15px;
-	position: absolute;
-	bottom: 0px;
-
-}
 .top-margin
 {
 	margin-top: 10px;
