@@ -1,0 +1,84 @@
+.ptext
+{
+	font-family: nasim ;
+	font-size: 20px;
+	vertical-align: middle;
+	padding-top: 20px;
+	cursor: pointer;
+	color: #37a000;
+	display: inline-block;
+
+}
+
+.contentbody
+{
+	background-color: #f9f9f9;
+}
+
+.headerbody
+{
+	background-color: white;
+}
+
+
+.ptext:hover { 
+    border-bottom: 1px solid #37a000;
+}
+
+.borderheader
+{
+	border-bottom:  1px solid black;
+}
+
+@font-face {
+    font-family: nasim;
+    src: url(393b712c01cdf4eb7f15d9180567345060f101241011931.ttf);
+}
+
+.headertext
+{
+	font-family: nasim;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	padding-top: 20px;
+
+}
+
+.inputstyle
+{
+	direction: rtl;
+	text-align: right;
+	font-family: nasim;
+	margin-bottom: 40px;
+}
+
+.inputstyle2
+{
+	direction: rtl;
+	text-align: right;
+	font-family: nasim;
+	margin-bottom: 20px;
+}
+
+.submitstyle
+{
+	
+	text-align: center;
+	font-family: nasim;
+	width:25%;
+	
+}
+
+.footer
+{
+	margin-top: 60px;
+	background-color: #494949;
+	text-align: center;
+	color:white;
+	font-size: 15px;
+	position: absolute;
+	bottom: 0px;
+
+}

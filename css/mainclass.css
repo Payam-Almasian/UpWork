@@ -1,0 +1,21 @@
+h1.clickable 
+{
+	display: inline-block;
+	font-family: nasim;
+	font-size: 25px;
+	//text-align: center;
+	border: 1px green solid ;
+	cursor: pointer;
+	background: 
+
+}
+
+.cover
+{
+	background-color: rgb(102, 255, 51);
+}
+
+@font-face {
+    font-family: nasim;
+    src: url(../fonts/393b712c01cdf4eb7f15d9180567345060f101241011931.ttf);
+}
