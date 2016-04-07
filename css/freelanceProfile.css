@@ -1,0 +1,25 @@
+.contact_box
+{
+	/*position : absolute;*/
+	background-color :  #555c70;  
+	/*width: 160px;*/
+	color:#afb2bb;
+	padding-top:5px;
+	padding-left:15px;
+	padding-right: 15px;
+	height: 100%;
+	
+}
+.contact_box p
+{
+    font-size: 30px;
+}
+
+.tab-content-info{
+	/*width: 62%;
+    margin-left: 160px;*/
+    background-color: #7ac366;
+}
+.name_box{
+padding-left: 0px;
+}
