@@ -73,7 +73,6 @@
 .New
 {
 	background-image: url("../images/footer-background.png");
-	margin-bottom: 20px;
 	font-family: nasim;
 	direction: rtl;
 }
@@ -81,4 +80,37 @@
 .news
 {
 	margin-bottom: 20px;	
+}
+
+.landing-hero
+{
+	background-image: url("../images/landing-hero-bg.jpg");
+	margin-bottom: 15px;
+	font-family: nasim;
+	text-align: center;
+	direction: rtl;
+	min-height: 60vh !important;
+    padding-top: 15rem;
+}
+
+.landing-hero-h1
+{
+	font-size: 4vw;
+ 	line-height: 4vw;
+ 	color: #5bbc2e;
+ 	font-weight: bold;
+ }
+
+.landing-hero hr {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    border-top-color: #b2b2b2;
+}
+.landing-hero-button
+{
+	background-color: #37a000;
+    border-color: #37a000;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 11px;
 }
