@@ -22,7 +22,12 @@
 
 .borderheader
 {
-	border-bottom:  1px solid black;
+	border-bottom:  3px solid red;
+}
+
+.carousel
+{
+	border-bottom : 3px solid blue;
 }
 
 @font-face {
@@ -92,6 +97,7 @@
 
 	margin-top: 20px;
 }
+<<<<<<< HEAD
 
 .infotext
 {
@@ -111,4 +117,9 @@
 	direction: rtl;
 	text-align: right;
 	font-family: nasim;
+=======
+.carousel-picture
+{
+	height:40%;
+>>>>>>> origin/master
 }

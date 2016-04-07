@@ -15,41 +15,8 @@
 
         <script src="js/jquery-2.2.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        
-    </head>
-    <body class="contentbody">
-        <div class="wrapper" width="100%">
-            <div class="header">
 
-                <div class="row borderheader headerbody">
-                
-                    <div class=" top-margin">
-                        
-                        <div class="col-xs-4 col-sm-2 col-md-1 navbar-left">
-                            <img src="images/LOGO.jpg">
-                        </div> 
-                        
-                        <div class="col-xs-offset-1 col-xs-3 col-sm-5 col-md-6  navbar-brand">
-                            <form> 
-                                <div class="form-group"> 
-                                    <div class="input-group">
-                                        <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default"><span class="glyphicon-search glyphicon"></span></button>
-                                        </span>
-                                        <input type="text" class="form-control ptext" placeholder="جستجو">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-lg-offset-1 navbar-right">
-                            <ol class="breadcrumb" style="background-color:white">
-                                <li><button class=" btn btn-success navbar-btn ptext" data-toggle="modal" data-target="#signIn">ورود</button></li>
-                                <li><button class=" btn btn-danger navbar-btn ptext" data-toggle="modal" data-target="#signUp">عضویت</button></li>
-                                <li><a class=" btn btn-info navbar-btn ptext" href="index.html">صفحه اصلی</a></li>
-                            </ol>
-                        </div>
-
+<<<<<<< HEAD
                         <div class="modal" id="signUp" tabindex="-1" role="dialog1">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -156,8 +123,15 @@
                 </div>
             </div>
             <div class="content container col-xs-12">
+=======
+    </head>
+    <body>
+        <div>
+           <script src="include/header-index.js"> </script>
+            <div class="content">
+>>>>>>> origin/master
                 <div class="row">
-                    <section class="col-xs-8 col-xs-offset-2">
+                    <section class="">
                         <div class="carousel slid" id="featured" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#featured" data-slide-to="0" class="active"> </li> 
@@ -165,15 +139,15 @@
                                 <li data-target="#featured" data-slide-to="2"> </li> 
                             </ol>
                         
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" style="height:40%">
                                 <div class="item">
-                                    <img src="images\Slider (5).jpg"/>
+                                    <img src="images\Slider (5).jpg" class="carousel-picture"/>
                                 </div>
                                 <div class="item active">
-                                    <img src="images\Slider (3).jpg"/>
+                                    <img src="images\Slider (3).jpg" class="carousel-picture"/>
                                 </div>
                                 <div class="item">
-                                    <img src="images\Slider (4).jpg"/>
+                                    <img src="images\Slider (4).jpg" class="carousel-picture"/>
                                 </div>
                             </div>
 
@@ -188,9 +162,133 @@
                     </section>
                 </div>
             </div>
-            <div class="footer  col-xs-12">
-                <div class="container-fluid">
-                    <p> 2015 - 2016 Upwork Global Inc.</p>
+            <div class="footer row">
+                <div class="col-xs-12 footer-header">
+                    <div class="container-fluid col-xs-10 col-xs-offset-1">
+                        <div class="media col-xs-4" style="margin-top:15px;">
+                            <div class="media-center">
+                                <img src="images/mooz.jpg">
+                            </div>
+                            <div class="media-center">
+                                <p class="footer-header-text">برترین ها</p> 
+                            </div>
+                        </div>
+                        <div class="media col-xs-4">
+                            <div class="media-center">
+                                <img src="images/ka.jpg" style="width:49px; height:39px;">
+                            </div>
+                            <div class="media-center">
+                                <p class="footer-header-text">آخرین اخبار</p> 
+                            </div>
+                        </div>
+                        <div class="media col-xs-4">
+                            <div class="media-center">
+                                <img src="images/vah.jpg">
+                            </div>
+                            <div class="media-center">
+                                <p class="footer-header-text"> معرفی سایت</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 footer-body" style="direction:rtl; text-align=right;">
+                        <div class="container-fluid col-xs-12 col-sm-8 col-sm-offset-2">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3">
+                                    <ul class="sitemap">
+                                        <li>
+                                            <p class="footer-body-heading">دسته بندی چهارم</p>
+                                            <ul>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک اول</a>
+                                                    <br>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک دوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">الینک سوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک چهارم</a>
+                                                </li>   
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <ul class="sitemap">
+                                        <li>
+                                            <p class="footer-body-heading">دسته بندی سوم</p>
+                                            <ul>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک اول</a>
+                                                    <br>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک دوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">الینک سوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک چهارم</a>
+                                                </li>   
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <ul class="sitemap">
+                                        <li>
+                                            <p class="footer-body-heading">دسته بندی دوم</p>
+                                            <ul>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک اول</a>
+                                                    <br>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک دوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">الینک سوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک چهارم</a>
+                                                </li>   
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <ul class="sitemap">
+                                        <li>
+                                            <p class="footer-body-heading">دسته بندی اول</p>
+                                            <ul>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک اول</a>
+                                                    <br>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک دوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">الینک سوم</a>
+                                                </li>
+                                                <li>
+                                                    <a class="footer-body-link" href="">لینک چهارم</a>
+                                                </li>   
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="container-fluid col-sm-6 col-sm-offset-3 col-xs-10 col-xs-1 copyright" style="direction:ltr;">
+                        <p> &copy; 2015 - 2016 PSP Global Inc.</p>
+                    </div>
                 </div>
             </div>
         </div>
