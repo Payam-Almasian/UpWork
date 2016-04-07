@@ -74,7 +74,7 @@
 	
 	text-align: center;
 	font-family: nasim;
-	font-size: 20px;
+	width:25%;
 	
 }
 
@@ -91,4 +91,24 @@
 	margin-bottom: 20px;
 
 	margin-top: 20px;
+}
+
+.infotext
+{
+	margin-top: 20px;
+	margin-bottom: 20;
+	font-style: nasim;
+	font-size: 15px;
+	display: inline-block;
+	direction: rtl;
+	text-align: right;
+
+
+}
+
+.Right
+{
+	direction: rtl;
+	text-align: right;
+	font-family: nasim;
 }
