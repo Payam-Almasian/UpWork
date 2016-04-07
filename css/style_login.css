@@ -97,7 +97,6 @@
 
 	margin-top: 20px;
 }
-<<<<<<< HEAD
 
 .infotext
 {
@@ -117,9 +116,26 @@
 	direction: rtl;
 	text-align: right;
 	font-family: nasim;
-=======
+}
+
 .carousel-picture
 {
 	height:40%;
->>>>>>> origin/master
+}
+
+.sitemap
+{
+	list-style-type: none;
+}
+
+.footer-body-link
+{
+	list-style-type: none;
+	font-size: 18px;
+}
+
+.footer-body-heading
+{
+	font-size: 22px;
+	font-weight: bold;
 }
