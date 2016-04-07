@@ -22,7 +22,12 @@
 
 .borderheader
 {
-	border-bottom:  1px solid black;
+	border-bottom:  3px solid red;
+}
+
+.carousel
+{
+	border-bottom : 3px solid blue;
 }
 
 @font-face {
@@ -91,4 +96,8 @@
 	margin-bottom: 20px;
 
 	margin-top: 20px;
+}
+.carousel-picture
+{
+	height:40%;
 }
