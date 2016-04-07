@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Index</title>
+
+        <link rel="stylesheet" href="css/SignUp_style.css">
+        <link rel="stylesheet" href="css/mainclass.css">
+        <link rel="stylesheet" href="css/style_login.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="js/jquery-2.2.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body class="contentbody">
+        <div class="wrapper" width="100%">
+            <div class="header">
+
+                <div class="row borderheader headerbody">
+                
+                    <div class=" top-margin">
+                        
+                        <div class="col-xs-4 col-sm-2 col-md-1 navbar-left">
+                            <img src="images/LOGO.jpg">
+                        </div> 
+                        
+                        <div class="col-xs-offset-1 col-xs-3 col-sm-5 col-md-6  navbar-brand">
+                            <form> 
+                                <div class="form-group"> 
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-default"><span class="glyphicon-search glyphicon"></span></button>
+                                        </span>
+                                        <input type="text" class="form-control ptext" placeholder="جستجو">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-lg-offset-1 navbar-right">
+                            <ol class="breadcrumb" style="background-color:white">
+                                <li><button class=" btn btn-success navbar-btn ptext" onclick="exit()">خروج</button></li>
+
+                            </ol>
+                        </div>
+
+                        
+
+
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+                    <div role="tabpanel">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active alltext">
+                                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">صفحه شزکت</a>
+                            </li>
+                            <li role="presentation" class="alltext">
+                                <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">اگهی استخدام</a>
+                            </li>
+                            <li role="presentation" class="alltext">
+                                <a href="#search" aria-controls="tab" role="tab" data-toggle="tab">جستجو</a>
+                            </li>
+                            <li role="presentation" class="alltext">
+                                <a href="#privacy" aria-controls="tab" role="tab" data-toggle="tab">برون سپاری</a>
+                            </li>
+                            
+                        </ul>
+                    
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="home">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alltext" style="text-align:center;">
+                                        <form action="" method="POST" role="form">
+                                            
+                                        
+                                            <div class="form-group">
+                                                
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="نام شرکت">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="وبگاه شرکت">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="ادرس شرکت">
+                                                
+                                            </div>
+
+
+                                        
+                                            
+                                        
+                                            <button type="submit" class="btn btn-primary">ذخیره</button>
+                                        </form>
+
+                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <div id="map" id="map" style="height: 400px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab">
+                                <div class="row">
+                                    
+
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alltext" style="text-align:center;">
+                                        
+                                        <form action="" method="POST" role="form">
+                                            
+                                        
+                                            <div class="form-group">
+                                                
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="عنوان شغل">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="میزان درامد">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="نوع شغل">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="توضیحات">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="مهارت مورد نیاز">
+                                            </div>
+                                        
+                                            
+                                        
+                                            <button type="submit" class="btn btn-primary">ارسال</button>
+                                        </form>
+
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="search">
+                                <div class="row">
+                                    
+
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alltext" style="text-align:center;">
+                                        
+                                        <form action="" method="POST" role="form">
+                                            
+                                        
+                                            <div class="form-group">
+                                                
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="تخصص">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="نوع شغل">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="سلبقه ی کار ">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="زمان ارسال رزومه">
+                                            </div>
+                                        
+                                            
+                                        
+                                            <button type="submit" class="btn btn-primary">جستجو</button>
+                                        </form>
+
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="privacy">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alltext" style="text-align:center;">
+
+                                        <form action="" method="POST" role="form">
+                                            
+                                        
+                                            <div class="form-group">
+                                                
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="عنوان پروژه">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="زمان پروژه">
+                                                <input type="text" class="form-control inputstyle3" id="" placeholder="سود پروژه">
+                                            </div>
+                                        
+                                            
+                                        
+                                            <button type="submit" class="btn btn-primary">ایجاد درخواست</button>
+                                        </form>
+                                        
+                                    </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    
+                </div>
+
+            </div>
+            
+            <div class="footer  col-xs-12">
+                <div class="container-fluid">
+                    <p> 2015 - 2016 Upwork Global Inc.</p>
+                </div>
+            </div>
+        </div>
+
+        <script >
+            function exit() {
+                window.location = "index.html"
+            }
+            
+
+        </script>
+
+        <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 44.540, lng: -78.546},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+
+    </body>
+
+</html>
