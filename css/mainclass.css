@@ -55,3 +55,30 @@
 	color: black;
 	font-weight: bold;
 }
+
+.slider
+{
+}
+
+.panel
+{
+	direction: rtl;
+}
+
+.panel-heading , .panel-footer
+{
+	font-family: nasim;
+}
+
+.New
+{
+	background-image: url("../images/footer-background.png");
+	margin-bottom: 20px;
+	font-family: nasim;
+	direction: rtl;
+}
+
+.new-footer
+{
+	margin-bottom: 20px;
+}
