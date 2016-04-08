@@ -40,7 +40,6 @@
                                     </p>
                                     <p class="headertext">
                                      جهت شروع مدل کاربری خود را مشخص کنید</p>
-
                                      <legend></legend>
 
                                     <div class="col-xs-3" style="text-align:center;">
@@ -331,13 +330,38 @@
                                     </div>
                                      <label class="label-style control-label" for="inputPassword">گذر واژه:</label>
                                 </div>
-                                
+                                <button class="btn btn-warning text-capitalize submitstyle" data-toggle="modal" data-target="#forgotPass">بازیابی رمز</button>
                                 <button type="button" class="btn btn-primary submitstyle">ورود</button>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="modal" id="forgotPass" tabindex="-2" role="dialog1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p class="page-title">
+                            بازیابی رمز ورود<br/>
+                            </p>
+                            <p class="headertext">
+                            :آدرس ایمیل خود را جهت بازیابی رمز خود وارد کنید</p>
+                                
+                                <div class="form-group">
+                                    <div class="col-xs-9 col-sm-10">
+                                        <input type="text" class="form-control inputstyle2" id="inputUsername" placeholder="ایمیل">
+                                    </div>
+                                     <label class="label-style control-label" for="inputUsername">ایمیل:</label>
+                                </div>
+                                
+                                <button type="button" class="btn btn-warning submitstyle">بازیابی</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
