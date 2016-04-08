@@ -82,6 +82,9 @@
                             <li role="presentation" class="alltext">
                                 <a id="a_link" href="#privacy" aria-controls="tab" role="tab" data-toggle="tab">برون سپاری</a>
                             </li>
+                            <li role="presentation" class="alltext">
+                                <a id="a_link" href="#profile" aria-controls="tab" role="tab" data-toggle="tab">پروفایل</a>
+                            </li>
                             
                         </ul>
                     
@@ -196,6 +199,25 @@
                             
                             
                         </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alltext" style="text-align:center;">
+                                        
+                                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                            </div>
+                                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                            </div>
+                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                                  <button type="submit" onclick="showProfile()" class="btn btn-primary" style="margin-top: 40px;margin-bottom: 40px;width:100%;">ویرایش پروفایل</button>
+                                            </div>
+                                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                            </div>
+                                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> 
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                     
                 </div>
@@ -214,7 +236,9 @@
             function exit() {
                 window.location = "index.html"
             }
-            
+             function showProfile(){
+                window.location = "EmployerProfile.html"
+            }
 
         </script>
 
